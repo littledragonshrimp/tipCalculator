@@ -1,0 +1,63 @@
+body {
+  background-color: #c5e4e7;
+  font-size: larger;
+  text-decoration: underline;
+  background-color: #f3f8fb;
+}
+
+input[type=number] {
+  display: block;
+  width: 90%;
+  padding: 0.3em;
+  font-family: "Space Mono", monospace;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: hsl(180deg, 8%, 37%);
+  text-align: end;
+  border: 3px solid transparent;
+  border-radius: 5px;
+  outline: none;
+}
+
+body header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12vh;
+}
+
+body main {
+  display: block;
+  width: 60%;
+  height: 100%;
+  MARGIN: AUTO;
+  PADDING: 0;
+}
+
+body main .splitter-body {
+  display: flex;
+  margin-top: 2em;
+  padding: 1em;
+  width: 100%;
+  height: 50%;
+  font-family: "Space Mono", monospace;
+  background-color: #fefffe;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+}
+body main .splitter-body .splitter-input,
+body main .splitter-body .splitter-output {
+  display: flex;
+  flex-direction: column;
+}
+body main .splitter-body .splitter-input {
+  width: 60%;
+  padding: 1em;
+}
+body main .splitter-body .splitter-input .input-box {
+  display: flex;
+  flex-direction: column;
+  color: hsl(180deg, 8%, 37%);
+}/*# sourceMappingURL=styles.css.map */
